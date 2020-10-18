@@ -13,8 +13,10 @@
 </template>
 
 <script>
+    import { mapActions } from 'vuex';
     export default {
-        name: "FilterTodos"
+        name: "FilterTodos",
+        methods: mapActions([" "])
     }
 </script>
 
